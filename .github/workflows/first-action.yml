@@ -4,7 +4,7 @@ jobs:
   First-job:
     runs-on: windows-latest
     steps:
-      -name: print greeting
-      runs: echo "Hello World!"
-      -name: print goodbye
-      runs: echo "Done-bye!"
+      - name: print greeting
+        runs: echo "Hello World!"
+      - name: print goodbye
+        runs: echo "Done-bye!"
